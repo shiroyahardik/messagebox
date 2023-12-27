@@ -12,9 +12,9 @@ const io = new Server(httpServer, { cors: {
         credentials: true,
     } 
 });
-const server = app.listen(8000, () => {
+/*const server = app.listen(8000, () => {
   console.log('Server is running on port 3000');
-});
+});*/
 
 /*const connection = mysql.createConnection({
     host: 'localhost',
